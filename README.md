@@ -1,1 +1,1 @@
-# mhbs_lib
+# Python Library Template
