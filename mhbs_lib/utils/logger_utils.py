@@ -5,7 +5,7 @@ This module provides a configured logger for the project.
 import logging
 
 LOGGING_FORMAT: str = (
-    "[%(levelname)s] %(asctime)s - (%(filename)s: %(lineno)s - %(name)s) \n%(message)s"
+    "[%(levelname)s] %(asctime)s - (%(filename)s: %(lineno)s - %(name)s) \n%(message)s\n"
     )
 
 LOGGING_LEVEL: int = logging.INFO

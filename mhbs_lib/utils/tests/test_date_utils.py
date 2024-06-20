@@ -3,6 +3,7 @@ This module contains unit tests for the date manipulation functions defined in d
 """
 
 from datetime import datetime
+
 from ..date_utils import (
     first_day_of_month,
     last_day_of_month,
@@ -10,6 +11,7 @@ from ..date_utils import (
     get_next_month,
     get_last_month
 )
+
 
 
 def test_first_day_of_month():
