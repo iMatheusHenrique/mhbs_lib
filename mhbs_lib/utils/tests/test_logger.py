@@ -3,7 +3,7 @@ This module contains unit tests for the logging setup defined in logger.py.
 """
 
 import logging
-from mhbs_lib.utils.logger_utils import logging_var
+from ..logger_utils import logging_var
 
 
 def test_logger_format():

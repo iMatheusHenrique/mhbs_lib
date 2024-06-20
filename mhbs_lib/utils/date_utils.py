@@ -6,7 +6,8 @@ This module provides date manipulation functions such as:
 """
 
 from datetime import datetime, timedelta
-from mhbs_lib.utils.logger_utils import logging_var
+from .logger_utils import logging_var
+
 
 def first_day_of_month(date: datetime) -> datetime:
     """

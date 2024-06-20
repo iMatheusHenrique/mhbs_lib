@@ -3,7 +3,7 @@ This module contains unit tests for the date manipulation functions defined in d
 """
 
 from datetime import datetime
-from mhbs_lib.utils.date_utils import (
+from ..date_utils import (
     first_day_of_month,
     last_day_of_month,
     format_date,
